@@ -1,26 +1,31 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/K3waziIG)
 # Activity 1.1.7
 
-* Utilize this read me to showcase the project.
-* Be sure to read and use the markdown here:
-[MarkDown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [Stack Edit for markdown editing](https://stackedit.io)
+## Description of the Program
 
-* Write a description of what the program does, who is it for?
----
+The **Turtle Spiral Manager** is a Python program that creates multiple turtles on the screen and moves them in a spiral pattern that grows indefinitely. Each turtle zlso has a different shape and color, which adds to the quality of the output.
 
+### Features
+- **Turtle Creation**: Turtles are created with different shapes and colors which are then added to the spiral pattern
+- **Spiral Movement**: The turtles follow a determined spiral path
+- **Infinite Turtle Generation**: Once the initial set of turtles runs out, new turtles are added to continue the spiral
 
+### Target Audience
+- **Students**: This project is aimed at students learning about turtle graphics in Python.
+- **Python Enthusiasts**: Made for anyone interested in projects using Python's `turtle` module
 
+## How the Program Works
+1. **TurtleManager Class**: 
+   - Manages a collection of turtles
+   - Initializes turtles with different shapes and colors
+   - Moves turtles in a spiral pattern and then continuously adds more turtles
+   
+2. **Spiral Movement**:
+   - Turtles start at the center (0, 0).
+   - Each turtle moves forward at a 45-degree angle
+   - With each step, the spiral slowly grows in increments
 
-### [Book Link](https://pltw.read.inkling.com/a/b/5310c007377c46e28d745961310f0c2e/p/88fb6ad306ee44d0b055d9008ace8e80)
+## User Story
+As a student, I want to create an interesting turtle that moves in a spiral, so that I can learn more about programming and turtle graphics.
 
+## Video of the Result
 
-## Questions about the Activity as you work. 
-```
-
-```
-#### Description Of The App according to User Story
-
-`
-# Include a video of the result of the code at speed 0 or Fast. Be sure to make it available for me to see.
-## For Regrades use the Feedback and @baeztheprog on your commit messages.
